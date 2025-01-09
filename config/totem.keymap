@@ -111,9 +111,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans                   &kp UP                     &trans          &kp LBRC                  &kp RBRC                         &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3            &kp KP_PLUS
+        &trans  &trans                   &kp UP                     &trans          &kp LBRC                  &kp RBRC                         &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3            &mt ASTERISK PLUS
         &trans  &mt LEFT_ALT LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &mt LGUI RIGHT  &mt LCTRL LEFT_BRACKET    &mt RIGHT_CONTROL RIGHT_BRACKET  &mt LGUI NUMBER_4  &mt RIGHT_SHIFT N5  &mt RIGHT_ALT NUMBER_6  &mt TAB N0
-&trans  &trans  &kp PG_UP                &trans                     &kp PG_DN       &kp LPAR                  &kp RPAR                         &kp N7             &kp N8              &kp N9                  &kp MINUS    &kp EQUAL
+&trans  &trans  &kp PG_UP                &trans                     &kp PG_DN       &kp LPAR                  &kp RPAR                         &kp N7             &kp N8              &kp N9                  &mt SLASH MINUS    &kp EQUAL
                                          &trans                     &trans          &trans                    &trans                           &trans             &trans
             >;
         };
